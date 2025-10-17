@@ -1,4 +1,4 @@
-const apiKey = "bf9572899325e51f90ded5aeff8d6f26";
+const apiKey = "enter your api key";
 
 async function getWeatherByCity() {
   const city = document.getElementById('cityInput').value.trim();
@@ -52,3 +52,4 @@ async function fetchWeather(url) {
     document.getElementById('loading').textContent = "Error fetching data.";
   }
 }
+
